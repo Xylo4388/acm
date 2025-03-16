@@ -1,0 +1,288 @@
+Symbol range map extraction starting
+Processing 1 files
+processing com\example\altcheck\AltCheckMod.java
+@|com\example\altcheck\AltCheckMod.java|8|28|com.example.altcheck|package|com.example.altcheck|(file)
+Class Start: com.example.altcheck.AltCheckMod
+   @|com\example\altcheck\AltCheckMod.java|1174|1180|String|class|java.lang.String
+   @|com\example\altcheck\AltCheckMod.java|1181|1186|MODID|field|com.example.altcheck.AltCheckMod|MODID|
+   @|com\example\altcheck\AltCheckMod.java|1220|1226|String|class|java.lang.String
+   @|com\example\altcheck\AltCheckMod.java|1227|1234|VERSION|field|com.example.altcheck.AltCheckMod|VERSION|
+   @|com\example\altcheck\AltCheckMod.java|1262|1271|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\example\altcheck\AltCheckMod.java|1272|1274|mc|field|com.example.altcheck.AltCheckMod|mc|
+   @|com\example\altcheck\AltCheckMod.java|1277|1286|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\example\altcheck\AltCheckMod.java|1287|1299|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|com\example\altcheck\AltCheckMod.java|1321|1333|OkHttpClient|class|okhttp3.OkHttpClient
+   @|com\example\altcheck\AltCheckMod.java|1334|1344|httpClient|field|com.example.altcheck.AltCheckMod|httpClient|
+   @|com\example\altcheck\AltCheckMod.java|1351|1363|OkHttpClient|class|okhttp3.OkHttpClient
+   @|com\example\altcheck\AltCheckMod.java|1385|1389|Gson|class|com.google.gson.Gson
+   @|com\example\altcheck\AltCheckMod.java|1390|1394|gson|field|com.example.altcheck.AltCheckMod|gson|
+   @|com\example\altcheck\AltCheckMod.java|1401|1405|Gson|class|com.google.gson.Gson
+   @|com\example\altcheck\AltCheckMod.java|1435|1439|Path|class|java.nio.file.Path
+   @|com\example\altcheck\AltCheckMod.java|1440|1451|CONFIG_PATH|field|com.example.altcheck.AltCheckMod|CONFIG_PATH|
+   @|com\example\altcheck\AltCheckMod.java|1454|1459|Paths|class|java.nio.file.Paths
+   @|com\example\altcheck\AltCheckMod.java|1460|1463|get|method|java.nio.file.Paths|get|(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+   @|com\example\altcheck\AltCheckMod.java|1464|1473|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\example\altcheck\AltCheckMod.java|1474|1486|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|com\example\altcheck\AltCheckMod.java|1489|1498|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+   @|com\example\altcheck\AltCheckMod.java|1499|1506|getPath|method|java.io.File|getPath|()Ljava/lang/String;
+   @|com\example\altcheck\AltCheckMod.java|1553|1559|String|class|java.lang.String
+   @|com\example\altcheck\AltCheckMod.java|1560|1573|POLSU_API_KEY|field|com.example.altcheck.AltCheckMod|POLSU_API_KEY|
+   @|com\example\altcheck\AltCheckMod.java|1602|1612|loadApiKey|method|com.example.altcheck.AltCheckMod|loadApiKey|()V
+   Method Start: loadApiKey()V
+      @|com\example\altcheck\AltCheckMod.java|1647|1657|loadApiKey|method|com.example.altcheck.AltCheckMod|loadApiKey|()V
+      @|com\example\altcheck\AltCheckMod.java|1674|1679|Files|class|java.nio.file.Files
+      @|com\example\altcheck\AltCheckMod.java|1680|1686|exists|method|java.nio.file.Files|exists|(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+      @|com\example\altcheck\AltCheckMod.java|1687|1698|CONFIG_PATH|field|com.example.altcheck.AltCheckMod|CONFIG_PATH
+      @|com\example\altcheck\AltCheckMod.java|1720|1731|InputStream|class|java.io.InputStream
+      @|com\example\altcheck\AltCheckMod.java|1740|1745|Files|class|java.nio.file.Files
+      @|com\example\altcheck\AltCheckMod.java|1746|1760|newInputStream|method|java.nio.file.Files|newInputStream|(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/InputStream;
+      @|com\example\altcheck\AltCheckMod.java|1761|1772|CONFIG_PATH|field|com.example.altcheck.AltCheckMod|CONFIG_PATH
+      @|com\example\altcheck\AltCheckMod.java|1793|1803|Properties|class|java.util.Properties
+      @|com\example\altcheck\AltCheckMod.java|1815|1825|Properties|class|java.util.Properties
+      @|com\example\altcheck\AltCheckMod.java|1850|1854|load|method|java.util.Properties|load|(Ljava/io/InputStream;)V
+      @|com\example\altcheck\AltCheckMod.java|1879|1892|POLSU_API_KEY|field|com.example.altcheck.AltCheckMod|POLSU_API_KEY
+      @|com\example\altcheck\AltCheckMod.java|1900|1911|getProperty|method|java.util.Properties|getProperty|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|com\example\altcheck\AltCheckMod.java|1955|1966|IOException|class|java.io.IOException
+      @|com\example\altcheck\AltCheckMod.java|1990|2005|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: loadApiKey()V
+   Method Start: saveApiKey(Ljava/lang/String;)V
+      @|com\example\altcheck\AltCheckMod.java|2064|2074|saveApiKey|method|com.example.altcheck.AltCheckMod|saveApiKey|(Ljava/lang/String;)V
+      @|com\example\altcheck\AltCheckMod.java|2075|2081|String|class|java.lang.String
+      @|com\example\altcheck\AltCheckMod.java|2082|2088|apiKey|param|com.example.altcheck.AltCheckMod|saveApiKey|(Ljava/lang/String;)V|apiKey|0
+      @|com\example\altcheck\AltCheckMod.java|2105|2117|OutputStream|class|java.io.OutputStream
+      @|com\example\altcheck\AltCheckMod.java|2127|2132|Files|class|java.nio.file.Files
+      @|com\example\altcheck\AltCheckMod.java|2133|2148|newOutputStream|method|java.nio.file.Files|newOutputStream|(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;
+      @|com\example\altcheck\AltCheckMod.java|2149|2160|CONFIG_PATH|field|com.example.altcheck.AltCheckMod|CONFIG_PATH
+      @|com\example\altcheck\AltCheckMod.java|2177|2187|Properties|class|java.util.Properties
+      @|com\example\altcheck\AltCheckMod.java|2199|2209|Properties|class|java.util.Properties
+      @|com\example\altcheck\AltCheckMod.java|2230|2241|setProperty|method|java.util.Properties|setProperty|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+      @|com\example\altcheck\AltCheckMod.java|2259|2265|apiKey|param|com.example.altcheck.AltCheckMod|saveApiKey|(Ljava/lang/String;)V|apiKey|0
+      @|com\example\altcheck\AltCheckMod.java|2285|2290|store|method|java.util.Properties|store|(Ljava/io/OutputStream;Ljava/lang/String;)V
+      @|com\example\altcheck\AltCheckMod.java|2318|2331|POLSU_API_KEY|field|com.example.altcheck.AltCheckMod|POLSU_API_KEY
+      @|com\example\altcheck\AltCheckMod.java|2334|2340|apiKey|param|com.example.altcheck.AltCheckMod|saveApiKey|(Ljava/lang/String;)V|apiKey|0
+      @|com\example\altcheck\AltCheckMod.java|2359|2370|IOException|class|java.io.IOException
+      @|com\example\altcheck\AltCheckMod.java|2390|2405|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: saveApiKey(Ljava/lang/String;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\example\altcheck\AltCheckMod.java|2464|2468|init|method|com.example.altcheck.AltCheckMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\example\altcheck\AltCheckMod.java|2469|2491|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\example\altcheck\AltCheckMod.java|2492|2497|event|param|com.example.altcheck.AltCheckMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\example\altcheck\AltCheckMod.java|2509|2523|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\example\altcheck\AltCheckMod.java|2524|2533|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\example\altcheck\AltCheckMod.java|2534|2542|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\example\altcheck\AltCheckMod.java|2558|2578|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\example\altcheck\AltCheckMod.java|2579|2587|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\example\altcheck\AltCheckMod.java|2588|2603|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\example\altcheck\AltCheckMod.java|2608|2623|CommandAltCheck|class|com.example.altcheck.AltCheckMod.CommandAltCheck
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Class Start: com.example.altcheck.AltCheckMod.CommandAltCheck
+      Method Start: getCommandName()Ljava/lang/String;
+         @|com\example\altcheck\AltCheckMod.java|2730|2744|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+         @|com\example\altcheck\AltCheckMod.java|2723|2729|String|class|java.lang.String
+      Method End: getCommandName()Ljava/lang/String;
+      Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|2829|2843|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|2844|2858|ICommandSender|class|net.minecraft.command.ICommandSender
+         @|com\example\altcheck\AltCheckMod.java|2859|2865|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|2867|2873|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|2876|2880|args|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+         @|com\example\altcheck\AltCheckMod.java|2900|2904|args|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+         Field: Array Length, skipping
+         @|com\example\altcheck\AltCheckMod.java|2920|2924|args|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+         @|com\example\altcheck\AltCheckMod.java|2928|2944|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+         @|com\example\altcheck\AltCheckMod.java|2974|2984|saveApiKey|method|com.example.altcheck.AltCheckMod|saveApiKey|(Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|2985|2989|args|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+         @|com\example\altcheck\AltCheckMod.java|3011|3022|sendMessage|method|com.example.altcheck.AltCheckMod.CommandAltCheck|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|3023|3029|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|3086|3090|args|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+         Field: Array Length, skipping
+         @|com\example\altcheck\AltCheckMod.java|3126|3130|args|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+         @|com\example\altcheck\AltCheckMod.java|3134|3150|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+         @|com\example\altcheck\AltCheckMod.java|3189|3202|POLSU_API_KEY|field|com.example.altcheck.AltCheckMod|POLSU_API_KEY
+         @|com\example\altcheck\AltCheckMod.java|3203|3210|isEmpty|method|java.lang.String|isEmpty|()Z
+         @|com\example\altcheck\AltCheckMod.java|3240|3251|sendMessage|method|com.example.altcheck.AltCheckMod.CommandAltCheck|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|3252|3258|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|3335|3346|sendMessage|method|com.example.altcheck.AltCheckMod.CommandAltCheck|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|3347|3353|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|3381|3394|POLSU_API_KEY|field|com.example.altcheck.AltCheckMod|POLSU_API_KEY
+         @|com\example\altcheck\AltCheckMod.java|3468|3481|POLSU_API_KEY|field|com.example.altcheck.AltCheckMod|POLSU_API_KEY
+         @|com\example\altcheck\AltCheckMod.java|3482|3489|isEmpty|method|java.lang.String|isEmpty|()Z
+         @|com\example\altcheck\AltCheckMod.java|3519|3530|sendMessage|method|com.example.altcheck.AltCheckMod.CommandAltCheck|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|3531|3537|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|3683|3689|Thread|class|java.lang.Thread
+         @|com\example\altcheck\AltCheckMod.java|3729|3734|start|method|java.lang.Thread|start|()V
+         @|com\example\altcheck\AltCheckMod.java|3793|3804|sendMessage|method|com.example.altcheck.AltCheckMod.CommandAltCheck|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|3805|3811|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      Method Start: checkAltsAsync(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|3943|3957|checkAltsAsync|method|com.example.altcheck.AltCheckMod.CommandAltCheck|checkAltsAsync|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|3958|3972|ICommandSender|class|net.minecraft.command.ICommandSender
+         @|com\example\altcheck\AltCheckMod.java|3973|3979|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|checkAltsAsync|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|3981|3987|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|3988|3996|username|param|com.example.altcheck.AltCheckMod.CommandAltCheck|checkAltsAsync|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|username|1
+         @|com\example\altcheck\AltCheckMod.java|4034|4045|ProfileData|class|com.example.altcheck.AltCheckMod.ProfileData
+         @|com\example\altcheck\AltCheckMod.java|4056|4074|fetchMojangProfile|method|com.example.altcheck.AltCheckMod.CommandAltCheck|fetchMojangProfile|(Ljava/lang/String;)Lcom/example/altcheck/AltCheckMod$ProfileData;
+         @|com\example\altcheck\AltCheckMod.java|4075|4083|username|param|com.example.altcheck.AltCheckMod.CommandAltCheck|checkAltsAsync|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|username|1
+         @|com\example\altcheck\AltCheckMod.java|4145|4156|sendMessage|method|com.example.altcheck.AltCheckMod.CommandAltCheck|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|4157|4163|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|checkAltsAsync|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|4251|4254|Set|class|java.util.Set
+         @|com\example\altcheck\AltCheckMod.java|4255|4261|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|4270|4284|fetchPolsuAlts|method|com.example.altcheck.AltCheckMod.CommandAltCheck|fetchPolsuAlts|(Ljava/lang/String;)Ljava/util/Set;
+         @|com\example\altcheck\AltCheckMod.java|4293|4297|uuid|field|com.example.altcheck.AltCheckMod.ProfileData|uuid
+         @|com\example\altcheck\AltCheckMod.java|4316|4327|sendResults|method|com.example.altcheck.AltCheckMod.CommandAltCheck|sendResults|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;Ljava/util/Set;)V
+         @|com\example\altcheck\AltCheckMod.java|4328|4334|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|checkAltsAsync|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|4344|4359|currentUsername|field|com.example.altcheck.AltCheckMod.ProfileData|currentUsername
+         @|com\example\altcheck\AltCheckMod.java|4389|4398|Exception|class|java.lang.Exception
+         @|com\example\altcheck\AltCheckMod.java|4422|4437|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+         @|com\example\altcheck\AltCheckMod.java|4457|4468|sendMessage|method|com.example.altcheck.AltCheckMod.CommandAltCheck|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|4469|4475|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|checkAltsAsync|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|4500|4510|getMessage|method|java.lang.Throwable|getMessage|()Ljava/lang/String;
+      Method End: checkAltsAsync(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      Method Start: fetchMojangProfile(Ljava/lang/String;)Lcom/example/altcheck/AltCheckMod$ProfileData;
+         @|com\example\altcheck\AltCheckMod.java|4568|4586|fetchMojangProfile|method|com.example.altcheck.AltCheckMod.CommandAltCheck|fetchMojangProfile|(Ljava/lang/String;)Lcom/example/altcheck/AltCheckMod$ProfileData;
+         @|com\example\altcheck\AltCheckMod.java|4556|4567|ProfileData|class|com.example.altcheck.AltCheckMod.ProfileData
+         @|com\example\altcheck\AltCheckMod.java|4611|4622|IOException|class|java.io.IOException
+         @|com\example\altcheck\AltCheckMod.java|4587|4593|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|4594|4602|username|param|com.example.altcheck.AltCheckMod.CommandAltCheck|fetchMojangProfile|(Ljava/lang/String;)Lcom/example/altcheck/AltCheckMod$ProfileData;|username|0
+         @|com\example\altcheck\AltCheckMod.java|4637|4644|Request|class|okhttp3.Request
+         @|com\example\altcheck\AltCheckMod.java|4659|4674|Request.Builder|class|okhttp3.Request.Builder
+         @|com\example\altcheck\AltCheckMod.java|4677|4680|url|method|okhttp3.Request.Builder|url|(Ljava/lang/String;)Lokhttp3/Request$Builder;
+         @|com\example\altcheck\AltCheckMod.java|4734|4742|username|param|com.example.altcheck.AltCheckMod.CommandAltCheck|fetchMojangProfile|(Ljava/lang/String;)Lcom/example/altcheck/AltCheckMod$ProfileData;|username|0
+         @|com\example\altcheck\AltCheckMod.java|4744|4749|build|method|okhttp3.Request.Builder|build|()Lokhttp3/Request;
+         @|com\example\altcheck\AltCheckMod.java|4765|4773|Response|class|okhttp3.Response
+         @|com\example\altcheck\AltCheckMod.java|4785|4795|httpClient|field|com.example.altcheck.AltCheckMod|httpClient
+         @|com\example\altcheck\AltCheckMod.java|4796|4803|newCall|method|okhttp3.Call.Factory|newCall|(Lokhttp3/Request;)Lokhttp3/Call;
+         @|com\example\altcheck\AltCheckMod.java|4813|4820|execute|method|okhttp3.Call|execute|()Lokhttp3/Response;
+         @|com\example\altcheck\AltCheckMod.java|4850|4862|isSuccessful|method|okhttp3.Response|isSuccessful|()Z
+         @|com\example\altcheck\AltCheckMod.java|4891|4901|JsonObject|class|com.google.gson.JsonObject
+         @|com\example\altcheck\AltCheckMod.java|4909|4913|gson|field|com.example.altcheck.AltCheckMod|gson
+         @|com\example\altcheck\AltCheckMod.java|4914|4922|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/io/Reader;Ljava/lang/Class;)Ljava/lang/Object;
+         @|com\example\altcheck\AltCheckMod.java|4932|4936|body|method|okhttp3.Response|body|()Lokhttp3/ResponseBody;
+         @|com\example\altcheck\AltCheckMod.java|4939|4949|charStream|method|okhttp3.ResponseBody|charStream|()Ljava/io/Reader;
+         @|com\example\altcheck\AltCheckMod.java|4953|4963|JsonObject|class|com.google.gson.JsonObject
+         @|com\example\altcheck\AltCheckMod.java|4995|5006|ProfileData|class|com.example.altcheck.AltCheckMod.ProfileData
+         @|com\example\altcheck\AltCheckMod.java|5012|5015|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+         @|com\example\altcheck\AltCheckMod.java|5024|5035|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+         @|com\example\altcheck\AltCheckMod.java|5044|5047|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+         @|com\example\altcheck\AltCheckMod.java|5054|5065|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      Method End: fetchMojangProfile(Ljava/lang/String;)Lcom/example/altcheck/AltCheckMod$ProfileData;
+      Method Start: fetchPolsuAlts(Ljava/lang/String;)Ljava/util/Set;
+         @|com\example\altcheck\AltCheckMod.java|5109|5123|fetchPolsuAlts|method|com.example.altcheck.AltCheckMod.CommandAltCheck|fetchPolsuAlts|(Ljava/lang/String;)Ljava/util/Set;
+         @|com\example\altcheck\AltCheckMod.java|5101|5107|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|5097|5100|Set|class|java.util.Set
+         @|com\example\altcheck\AltCheckMod.java|5144|5155|IOException|class|java.io.IOException
+         @|com\example\altcheck\AltCheckMod.java|5124|5130|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|5131|5135|uuid|param|com.example.altcheck.AltCheckMod.CommandAltCheck|fetchPolsuAlts|(Ljava/lang/String;)Ljava/util/Set;|uuid|0
+         @|com\example\altcheck\AltCheckMod.java|5170|5173|Set|class|java.util.Set
+         @|com\example\altcheck\AltCheckMod.java|5174|5180|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|5193|5200|HashSet|class|java.util.HashSet
+         @|com\example\altcheck\AltCheckMod.java|5218|5224|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|5300|5304|uuid|param|com.example.altcheck.AltCheckMod.CommandAltCheck|fetchPolsuAlts|(Ljava/lang/String;)Ljava/util/Set;|uuid|0
+         @|com\example\altcheck\AltCheckMod.java|5318|5325|Request|class|okhttp3.Request
+         @|com\example\altcheck\AltCheckMod.java|5340|5355|Request.Builder|class|okhttp3.Request.Builder
+         @|com\example\altcheck\AltCheckMod.java|5379|5382|url|method|okhttp3.Request.Builder|url|(Ljava/lang/String;)Lokhttp3/Request$Builder;
+         @|com\example\altcheck\AltCheckMod.java|5419|5422|get|method|okhttp3.Request.Builder|get|()Lokhttp3/Request$Builder;
+         @|com\example\altcheck\AltCheckMod.java|5446|5455|addHeader|method|okhttp3.Request.Builder|addHeader|(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+         @|com\example\altcheck\AltCheckMod.java|5467|5480|POLSU_API_KEY|field|com.example.altcheck.AltCheckMod|POLSU_API_KEY
+         @|com\example\altcheck\AltCheckMod.java|5503|5508|build|method|okhttp3.Request.Builder|build|()Lokhttp3/Request;
+         @|com\example\altcheck\AltCheckMod.java|5525|5533|Response|class|okhttp3.Response
+         @|com\example\altcheck\AltCheckMod.java|5545|5555|httpClient|field|com.example.altcheck.AltCheckMod|httpClient
+         @|com\example\altcheck\AltCheckMod.java|5556|5563|newCall|method|okhttp3.Call.Factory|newCall|(Lokhttp3/Request;)Lokhttp3/Call;
+         @|com\example\altcheck\AltCheckMod.java|5573|5580|execute|method|okhttp3.Call|execute|()Lokhttp3/Response;
+         @|com\example\altcheck\AltCheckMod.java|5609|5613|code|method|okhttp3.Response|code|()I
+         @|com\example\altcheck\AltCheckMod.java|5642|5652|JsonObject|class|com.google.gson.JsonObject
+         @|com\example\altcheck\AltCheckMod.java|5660|5664|gson|field|com.example.altcheck.AltCheckMod|gson
+         @|com\example\altcheck\AltCheckMod.java|5665|5673|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/io/Reader;Ljava/lang/Class;)Ljava/lang/Object;
+         @|com\example\altcheck\AltCheckMod.java|5683|5687|body|method|okhttp3.Response|body|()Lokhttp3/ResponseBody;
+         @|com\example\altcheck\AltCheckMod.java|5690|5700|charStream|method|okhttp3.ResponseBody|charStream|()Ljava/io/Reader;
+         @|com\example\altcheck\AltCheckMod.java|5704|5714|JsonObject|class|com.google.gson.JsonObject
+         @|com\example\altcheck\AltCheckMod.java|5748|5751|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+         @|com\example\altcheck\AltCheckMod.java|5771|5774|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+         @|com\example\altcheck\AltCheckMod.java|5786|5798|getAsBoolean|method|com.google.gson.JsonElement|getAsBoolean|()Z
+         @|com\example\altcheck\AltCheckMod.java|5831|5845|parsePolsuData|method|com.example.altcheck.AltCheckMod.CommandAltCheck|parsePolsuData|(Lcom/google/gson/JsonObject;)Ljava/util/Set;
+      Method End: fetchPolsuAlts(Ljava/lang/String;)Ljava/util/Set;
+      Method Start: parsePolsuData(Lcom/google/gson/JsonObject;)Ljava/util/Set;
+         @|com\example\altcheck\AltCheckMod.java|5949|5963|parsePolsuData|method|com.example.altcheck.AltCheckMod.CommandAltCheck|parsePolsuData|(Lcom/google/gson/JsonObject;)Ljava/util/Set;
+         @|com\example\altcheck\AltCheckMod.java|5941|5947|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|5937|5940|Set|class|java.util.Set
+         @|com\example\altcheck\AltCheckMod.java|5964|5974|JsonObject|class|com.google.gson.JsonObject
+         @|com\example\altcheck\AltCheckMod.java|5975|5979|json|param|com.example.altcheck.AltCheckMod.CommandAltCheck|parsePolsuData|(Lcom/google/gson/JsonObject;)Ljava/util/Set;|json|0
+         @|com\example\altcheck\AltCheckMod.java|5995|5998|Set|class|java.util.Set
+         @|com\example\altcheck\AltCheckMod.java|5999|6005|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|6023|6030|HashSet|class|java.util.HashSet
+         @|com\example\altcheck\AltCheckMod.java|6052|6056|json|param|com.example.altcheck.AltCheckMod.CommandAltCheck|parsePolsuData|(Lcom/google/gson/JsonObject;)Ljava/util/Set;|json|0
+         @|com\example\altcheck\AltCheckMod.java|6057|6060|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+         @|com\example\altcheck\AltCheckMod.java|6088|6098|JsonObject|class|com.google.gson.JsonObject
+         @|com\example\altcheck\AltCheckMod.java|6106|6110|json|param|com.example.altcheck.AltCheckMod.CommandAltCheck|parsePolsuData|(Lcom/google/gson/JsonObject;)Ljava/util/Set;|json|0
+         @|com\example\altcheck\AltCheckMod.java|6111|6126|getAsJsonObject|method|com.google.gson.JsonObject|getAsJsonObject|(Ljava/lang/String;)Lcom/google/gson/JsonObject;
+         @|com\example\altcheck\AltCheckMod.java|6161|6164|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+         @|com\example\altcheck\AltCheckMod.java|6200|6209|JsonArray|class|com.google.gson.JsonArray
+         @|com\example\altcheck\AltCheckMod.java|6231|6245|getAsJsonArray|method|com.google.gson.JsonObject|getAsJsonArray|(Ljava/lang/String;)Lcom/google/gson/JsonArray;
+         @|com\example\altcheck\AltCheckMod.java|6284|6295|JsonElement|class|com.google.gson.JsonElement
+         @|com\example\altcheck\AltCheckMod.java|6347|6357|JsonObject|class|com.google.gson.JsonObject
+         @|com\example\altcheck\AltCheckMod.java|6372|6387|getAsJsonObject|method|com.google.gson.JsonElement|getAsJsonObject|()Lcom/google/gson/JsonObject;
+         @|com\example\altcheck\AltCheckMod.java|6423|6426|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+         @|com\example\altcheck\AltCheckMod.java|6480|6483|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+         @|com\example\altcheck\AltCheckMod.java|6488|6491|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+         @|com\example\altcheck\AltCheckMod.java|6504|6515|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      Method End: parsePolsuData(Lcom/google/gson/JsonObject;)Ljava/util/Set;
+      Method Start: sendResults(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;Ljava/util/Set;)V
+         @|com\example\altcheck\AltCheckMod.java|6662|6673|sendResults|method|com.example.altcheck.AltCheckMod.CommandAltCheck|sendResults|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;Ljava/util/Set;)V
+         @|com\example\altcheck\AltCheckMod.java|6674|6688|ICommandSender|class|net.minecraft.command.ICommandSender
+         @|com\example\altcheck\AltCheckMod.java|6689|6695|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|sendResults|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;Ljava/util/Set;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|6697|6703|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|6704|6712|username|param|com.example.altcheck.AltCheckMod.CommandAltCheck|sendResults|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;Ljava/util/Set;)V|username|1
+         @|com\example\altcheck\AltCheckMod.java|6718|6724|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|6714|6717|Set|class|java.util.Set
+         @|com\example\altcheck\AltCheckMod.java|6726|6730|alts|param|com.example.altcheck.AltCheckMod.CommandAltCheck|sendResults|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;Ljava/util/Set;)V|alts|2
+         @|com\example\altcheck\AltCheckMod.java|6746|6748|mc|field|com.example.altcheck.AltCheckMod|mc
+         @|com\example\altcheck\AltCheckMod.java|6749|6765|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+      Method End: sendResults(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;Ljava/util/Set;)V
+      Method Start: sendMessage(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|7340|7351|sendMessage|method|com.example.altcheck.AltCheckMod.CommandAltCheck|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|7352|7366|ICommandSender|class|net.minecraft.command.ICommandSender
+         @|com\example\altcheck\AltCheckMod.java|7367|7373|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|sender|0
+         @|com\example\altcheck\AltCheckMod.java|7375|7381|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|7382|7389|message|param|com.example.altcheck.AltCheckMod.CommandAltCheck|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|message|1
+         @|com\example\altcheck\AltCheckMod.java|7405|7407|mc|field|com.example.altcheck.AltCheckMod|mc
+         @|com\example\altcheck\AltCheckMod.java|7408|7424|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+      Method End: sendMessage(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      Method Start: getRequiredPermissionLevel()I
+         @|com\example\altcheck\AltCheckMod.java|7535|7561|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+      Method End: getRequiredPermissionLevel()I
+      Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+         @|com\example\altcheck\AltCheckMod.java|7639|7654|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+         @|com\example\altcheck\AltCheckMod.java|7632|7638|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|7655|7669|ICommandSender|class|net.minecraft.command.ICommandSender
+         @|com\example\altcheck\AltCheckMod.java|7670|7676|sender|param|com.example.altcheck.AltCheckMod.CommandAltCheck|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+      Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Class End  : com.example.altcheck.AltCheckMod.CommandAltCheck
+   Class Start: com.example.altcheck.AltCheckMod.ProfileData
+      @|com\example\altcheck\AltCheckMod.java|7850|7856|String|class|java.lang.String
+      @|com\example\altcheck\AltCheckMod.java|7857|7872|currentUsername|field|com.example.altcheck.AltCheckMod.ProfileData|currentUsername|
+      @|com\example\altcheck\AltCheckMod.java|7895|7901|String|class|java.lang.String
+      @|com\example\altcheck\AltCheckMod.java|7902|7906|uuid|field|com.example.altcheck.AltCheckMod.ProfileData|uuid|
+      Method Start: ProfileData(Ljava/lang/String;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|7924|7935|ProfileData|method|com.example.altcheck.AltCheckMod.ProfileData|ProfileData|(Ljava/lang/String;Ljava/lang/String;)V
+         @|com\example\altcheck\AltCheckMod.java|7936|7942|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|7943|7958|currentUsername|param|com.example.altcheck.AltCheckMod.ProfileData|ProfileData|(Ljava/lang/String;Ljava/lang/String;)V|currentUsername|0
+         @|com\example\altcheck\AltCheckMod.java|7960|7966|String|class|java.lang.String
+         @|com\example\altcheck\AltCheckMod.java|7967|7971|uuid|param|com.example.altcheck.AltCheckMod.ProfileData|ProfileData|(Ljava/lang/String;Ljava/lang/String;)V|uuid|1
+         @|com\example\altcheck\AltCheckMod.java|7992|8007|currentUsername|field|com.example.altcheck.AltCheckMod.ProfileData|currentUsername
+         @|com\example\altcheck\AltCheckMod.java|8010|8025|currentUsername|param|com.example.altcheck.AltCheckMod.ProfileData|ProfileData|(Ljava/lang/String;Ljava/lang/String;)V|currentUsername|0
+         @|com\example\altcheck\AltCheckMod.java|8044|8048|uuid|field|com.example.altcheck.AltCheckMod.ProfileData|uuid
+         @|com\example\altcheck\AltCheckMod.java|8051|8055|uuid|param|com.example.altcheck.AltCheckMod.ProfileData|ProfileData|(Ljava/lang/String;Ljava/lang/String;)V|uuid|1
+      Method End: ProfileData(Ljava/lang/String;Ljava/lang/String;)V
+   Class End  : com.example.altcheck.AltCheckMod.ProfileData
+   Method Start: sendMessage(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\example\altcheck\AltCheckMod.java|8086|8097|sendMessage|method|com.example.altcheck.AltCheckMod|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\example\altcheck\AltCheckMod.java|8098|8112|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\example\altcheck\AltCheckMod.java|8113|8119|sender|param|com.example.altcheck.AltCheckMod|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|sender|0
+      @|com\example\altcheck\AltCheckMod.java|8121|8127|String|class|java.lang.String
+      @|com\example\altcheck\AltCheckMod.java|8128|8135|message|param|com.example.altcheck.AltCheckMod|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|message|1
+      @|com\example\altcheck\AltCheckMod.java|8143|8145|mc|field|com.example.altcheck.AltCheckMod|mc
+      @|com\example\altcheck\AltCheckMod.java|8146|8162|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+   Method End: sendMessage(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+Class End  : com.example.altcheck.AltCheckMod
+endProcessing com\example\altcheck\AltCheckMod.java
+

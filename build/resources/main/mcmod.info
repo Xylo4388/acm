@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ACM",
+  "name": "Alt Checker",
+  "description": "A simple mod to check for Alt Accounts",
+  "version": "1.0",
+  "mcversion": "1.8.9",
+  "url": "https://youtube.com/bedwarr",
+  "updateUrl": "",
+  "authorList": ["Bedwarr"],
+  "credits": "Polsu API.",
+  "logoFile": "src/main/java/resources/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
